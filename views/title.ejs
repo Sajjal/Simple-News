@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>S & D Simple News</title>
+  <link rel="shortcut icon" href="/images/icon.png" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+  <div class="header">
+    <div style="float: left;"><a href="/"><img src="/images/home.png" /></a></div>
+    <h3>Top Headlines</h3>
+  </div>
+  <div class="wrapper">
+    <div class="row">
+      <div class="column">
+        <h2><u>English News:</u></h2>
+        <% English.englishNews.forEach(post => {%>
+        <p>
+          <a href="/news?source=<%= post.source %>&title=<%=post.news.title%>&link=<%=post.news.link%>"
+            target="_blank">➡️ <%=post.news.title%></a>
+        </p>
+        <% })%>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="column">
+        <h2><u>Nepali News:</u></h2>
+        <% Nepali.nepaliNews.forEach(post => {%>
+        <p>
+          <a href="/news?source=<%= post.source %>&title=<%=post.news.title%>&link=<%=post.news.link%>"
+            target="_blank">➡️ <%=post.news.title%></a>
+        </p>
+        <% })%>
+      </div>
+    </div>
+  </div>
+  <div class="footer">S & D Simple News | github: @Sajjal</div>
+</body>
+
+</html>

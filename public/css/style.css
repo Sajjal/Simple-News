@@ -25,13 +25,12 @@ img {
   padding: 12px 10px;
 }
 .wrapper {
-  min-width: 1200px;
-  max-width: 600px;
+  width: 1200px;
   background: #f1f1f1;
-  padding: 30px 40px;
+  padding: 10px 20px;
   box-sizing: border-box;
   border-radius: 8px;
-  text-align: left;
+  text-align: justify;
   box-shadow: 0 0 20px #000000b3;
   font-family: "Montserrat", sans-serif;
   margin: auto;
@@ -67,4 +66,16 @@ img {
   text-align: center;
   border: 1px solid #7d7c7a;
   border-radius: 4px;
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+  max-width: 350px;
+  }
+  .header{
+    max-width: 350px;
+  }
+  .footer{
+    max-width: 350px;
+  }
 }

@@ -4,7 +4,7 @@
 
 It is a web-based news application to simplify the news reading experience. It will scrape top Headlines of USA Today, Clarion Ledger, OnlineKhabar and KhasoKhas and give the bare news as an output.
 
-This application is developed using Node.js, Express.js, Cheerio.js, HTML and CSS. The user interface is minimal.
+This application is developed using Node.js, Express.js, Cheerio.js, HTML and CSS. The user interface is responsive and minimal.
 
 **Feel free to Clone and Fork. Commercial Distribution is Prohibited.**
 

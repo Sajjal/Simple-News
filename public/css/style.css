@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   padding: 10px 0;
-  background-color: #f1f1f1;
+  background-color: #dfe1e8;
   font-family: "Reem Kufi", sans-serif;
 }
 .header {
@@ -26,7 +26,7 @@ img {
 }
 .wrapper {
   width: 1200px;
-  background: #f1f1f1;
+  background: #dfe1e8;
   padding: 10px 20px;
   box-sizing: border-box;
   border-radius: 8px;
@@ -70,12 +70,12 @@ img {
 
 @media screen and (max-width: 500px) {
   .wrapper {
-  max-width: 350px;
-  }
-  .header{
     max-width: 350px;
   }
-  .footer{
+  .header {
+    max-width: 350px;
+  }
+  .footer {
     max-width: 350px;
   }
 }
